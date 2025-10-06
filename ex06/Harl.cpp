@@ -30,15 +30,12 @@ void Harl::complain( std::string level )
 		case 0:
 			(this->*levelCase[0])();
 			std::cout << std::endl;
-			// fall through
 		case 1:
 			(this->*levelCase[1])();
 			std::cout << std::endl;
-			// fall through
 		case 2:
 			(this->*levelCase[2])();
 			std::cout << std::endl;
-			// fall through
 		case 3:
 			(this->*levelCase[3])();
 			break;
