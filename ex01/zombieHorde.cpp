@@ -2,7 +2,7 @@
 
 Zombie*	zombieHorde( int N, std::string name) {
 	if (N <= 0 || name.empty()) {
-		std::cout << "NICE TRY BITCH WE DON'T ALLOW THIS" << std::endl;
+		std::cout << "NICE TRY 'W'ITCH [hehe] WE DON'T ALLOW THIS" << std::endl;
 		return (NULL);
 	}
 	Zombie *h_zomb = new(std::nothrow) Zombie[N];

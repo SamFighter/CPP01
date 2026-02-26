@@ -38,7 +38,6 @@ int main()
 		}
 	}
 
-
 	delete [] h_zomb;
 	delete [] test;
 	return (0);

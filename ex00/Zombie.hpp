@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <vector>
 
 class Zombie {
 	private:
